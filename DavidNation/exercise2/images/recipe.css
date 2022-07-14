@@ -1,0 +1,38 @@
+
+body{
+    width: 1024px;
+    height: 768px;
+    background-color: #ffffff;
+    margin-left: 90px;
+}
+.Emile, .vickie, .piecard{
+    background-color: #FFFFA8;
+}
+p>a{
+    color: #eeee83;
+}
+hr{
+    border: black 1px solid;
+}
+.ingrediens, .directions, .links, .comments{
+    text-decoration: underline;
+    background-color: #8d8d60;
+    display: inline-block;
+    width: 1024px;
+    height: 20px;
+    color: #eeee83;
+    margin-right: 80px;
+}
+.Lemon{
+    text-decoration: underline;
+    background-color: #8d8d60;
+    display: inline-block;
+    width: 1024px;
+    height: 20px;
+    color: #eeee83;
+    
+    
+   
+    
+    
+}

@@ -1,0 +1,52 @@
+.topnav{
+        background-color: rgb(4, 88, 49);
+        height: 50px;
+        padding-top: 10px;
+       
+       
+      }
+
+.localisation-text{
+  position: relative;
+  color: white;
+  margin: 0px 5px 15px 15px;
+}
+#navbarCollapse .navbar-nav{
+  padding-left: 15px;
+}
+      /*à revoir*/
+    main { 
+      margin-top: 0;
+
+      background-image: url('/assets/images/plante_fonio.png');
+    } 
+    /* la largeur du nav*/
+    
+    
+    .nav-link{
+      color:black !important;
+    }
+    
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+    /*icônes*/
+    .col-1 a{
+    text-decoration: none;
+    color: white;
+    }
+    .col-9 a{
+      text-decoration: none;
+      color: white;
+    }
+    

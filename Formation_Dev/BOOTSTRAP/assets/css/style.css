@@ -1,0 +1,23 @@
+p{
+    padding: 5px;
+    text-align: justify;
+}
+img{
+    display: block;
+    
+}
+span{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.item{
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+}
+.items{
+    border: 1px solid red;
+    height: 300px;
+}

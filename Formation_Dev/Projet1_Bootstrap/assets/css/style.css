@@ -1,0 +1,145 @@
+
+/**************tous les médias***********/
+body{
+    background-color: #cfe5fa;
+    padding: 0px;
+    margin: 0px;
+}
+.bg-primary{
+    background-color: hsl(335, 86%, 44%) !important;
+}
+/*******************tablettes et smartphones*********************/
+@media (max-width: 991.98px) {
+    .laptop, #navbar img{
+        display: none;
+    }
+    .container-fluid .heading{
+        padding-top: 6em;
+    }
+    #moi .container-fluid{
+        margin: 0px;
+        padding: 0px; 
+    }
+    #moi .mobile .heading{
+        visibility: hidden;
+    }
+    
+    #moi .mobile img{
+        width: 80%;
+        border: 8px solid white;
+    }
+    #moi .mobile{
+        background-color: #2e02f1;
+        height: 100vh;
+        text-align: center;
+    }
+    #moi .mobile a, h2{
+        text-transform: uppercase;
+    }
+    
+
+}
+/************PC et TV************/
+@media (min-width: 992px) {
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        width: 17em;
+        height: 100vh;
+    }
+    .mobile{
+        display: none;
+    }
+    #navbar .navbar-brand img{
+        border: 1px solid;
+       
+    }
+    #navbar .navbar-collapse .navbar-nav{
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .navbar-brand{
+        padding: 5px;
+    }
+    .navbar-nav li {
+        font-size: 0.8rem;
+    }
+    #moi .laptop{
+        padding: 20%;
+        text-align: center;
+       
+    }
+    #moi .laptop .heading{
+        font-size: 2em;
+        color: #9933cc;
+        border-bottom: 1px solid black;
+        margin-bottom: 2rem;
+    }
+    #moi, .laptop, h3{
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    #moi .laptop h4,p{
+        font-size: 30px;
+        text-transform: lowercase;
+    }
+    section{
+        margin-left: 30%;
+    }
+    .container .heading{
+        text-align: center;
+        font-size: 32px;
+        padding-top: 4rem;
+        
+        
+    }
+     hr{
+        text-align: center;
+        font-size: 12px;
+        color: #9933cc;
+
+        
+    }
+    /*expériences et formations*/
+    .annee{
+        color: green;
+        font-weight: bold;
+        text-decoration: underline
+    }
+    .formations, .experiences{
+        font-style: italic;
+    }
+    /*un container prend 100% de la taille de l'écran du device*/
+    .container{
+        height: 100vh;
+    }
+    .container .heading{
+        text-transform: uppercase;
+    }
+    .experiences p{
+        text-align: center;
+        
+    }
+    /*Compétences*/
+#competence .progress{
+    height: 50px;
+    margin-top: 30px;
+    background-color: #e57373;
+}
+#competence .progress-bar{
+    font-size: 1.9em;
+    font-weight: bold;
+    text-shadow: 12px  12px 12px red;
+}
+/*langues parlees et centres d'intérêts*/
+#langue-parle li, #centre-interet li,#qualite li{
+    list-style: none;
+    padding: 1.2rem;
+}
+#caret{
+    float: right;
+    font-size: 40px;
+}
+
+}

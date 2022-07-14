@@ -1,0 +1,47 @@
+Header, footer{
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    height: 80px;
+
+}
+Header{
+    background-color: rgba(0, 89, 255);
+}
+footer{
+    
+    background-color: rgba(0, 89, 255);
+
+}
+.b{
+    border: 1px solid black;
+}
+.content > .row{
+    height: calc(100vh - 160px);
+}
+.main, aside{
+    color: rgba(255, 225, 255);
+    font-size: 2rem;
+}
+.main{
+    background-color: blueviolet;
+}
+aside{
+    background-color: green;
+}
+@media screen and (max-width: 992px) {
+    .main{
+        order: 2;
+        height: calc(100vh - 240px);
+    }
+    
+    aside{
+        order: 1;
+        height: 80px;
+    }
+    .content > .row{
+        height: auto;
+    }
+    
+    
+}
